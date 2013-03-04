@@ -4,7 +4,6 @@ This project is just a simple default compass project built to test the ability 
 
 ## Conclusion:
 
-Updated README.md, configured Compass project, and added the necessary files with only the needed content to perform the test.
 My theory was correct, any *partial* file located in the local directory will overide any sass files which would otherwise be imported from an installed gem.
 
 ## Proof:
