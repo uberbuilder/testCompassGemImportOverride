@@ -8,7 +8,7 @@ My theory was correct, any *partial* file located in the local directory will ov
 
 ## Important Note:
 
-When using the `add_import_path` function it is important to understand that this does not work like the other configuration variables.  This is not a variable you are setting, **you're calling a function**, *not setting a variable*. see [config.rb](https://github.com/uberbuilder/testCompassGemImportOverride/blob/master/config.rb)
+When using the `add_import_path` **function** it is important to understand that this does not work like the **configuration variables**.  This is *not a variable* you are setting, **you're calling a function**, *not setting a variable*. see [config.rb](https://github.com/uberbuilder/testCompassGemImportOverride/blob/master/config.rb)
 
     (annotated codeblock)
     
@@ -21,6 +21,8 @@ When using the `add_import_path` function it is important to understand that thi
     Note:                 ^^^ - see the different?  No '=' sign
     
     (annotated codeblock)
+
+See [Compass Reference](http://compass-style.org/help/tutorials/configuration-reference/#configuration-functions)
 
 ## Proof:
 
