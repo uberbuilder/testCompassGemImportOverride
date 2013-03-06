@@ -4,15 +4,15 @@ This project is just a simple default compass project built to test the ability 
 
 ## Conclusion:
 
-Updated README.md, configured Compass project, and added the necessary files with only the needed content to perform the test.
 My theory was correct, any *partial* file located in the local directory will overide any sass files which would otherwise be imported from an installed gem.
 
 ## Important Note:
 
 When using the `add_import_path` function it is important to understand that this does not work like the other configuration variables.  This is not a variable you are setting, you're actually calling a function - not setting a variable. see config.rb
 
+## Proof:
 
-## This is what I did to test the theory:
+Steps to create the test:
 
     compass create --sass-dir "scss" --css-dir "css" --javascripts-dir "js" --images-dir "img"
     cd scss
