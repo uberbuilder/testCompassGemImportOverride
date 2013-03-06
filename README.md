@@ -8,7 +8,19 @@ My theory was correct, any *partial* file located in the local directory will ov
 
 ## Important Note:
 
-When using the `add_import_path` function it is important to understand that this does not work like the other configuration variables.  This is not a variable you are setting, you're actually calling a function - not setting a variable. see config.rb
+When using the `add_import_path` function it is important to understand that this does not work like the other configuration variables.  This is not a variable you are setting, **you're calling a function**, *not setting a variable*. see [config.rb](https://github.com/uberbuilder/testCompassGemImportOverride/blob/master/config.rb)
+
+    (annotated codeblock)
+    
+            http_path = "/"
+            css_dir = "css"
+            sass_dir = "scss"
+            images_dir = "img"
+            javascripts_dir = "js"
+    Look:   add_import_path "/Users/jeremy/Sites/uberBuilderCommon"
+    Note:                 ^^^ - see the different?  No '=' sign
+    
+    (annotated codeblock)
 
 ## Proof:
 
