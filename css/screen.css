@@ -6,3 +6,13 @@
 body {
   background: red;
 }
+
+/* line 1, ../../uberBuilderCommon/_uberTest.scss */
+.uberBuilderClass {
+  color: red;
+}
+
+/* line 1, ../scss/_overRideMe.scss */
+.thisUberTestIsBeingLocallyOverRidden {
+  color: blue;
+}
